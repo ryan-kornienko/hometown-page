@@ -1,0 +1,80 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    text-align: center;
+    color: #1D3557;
+    background-color:#F1FAEE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#header {
+    height: 595px;
+    max-width: 1059px;
+    margin: 0 auto 0 auto;
+    background-image: url(https://traveler.marriott.com/wp-content/uploads/2022/03/downtown-san-jose-california.jpg);
+    background-size: cover;
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+}
+
+#activities{
+    background-color: #A8DADC;
+    max-width: 1019px;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.activity {
+    max-width: 300px;
+}
+
+.activity-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#guide {
+    background-color: #457B9D;
+    max-width: 1059px;
+    margin: 0px auto 0px auto;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+}
+
+#guide-container {
+    background-color: #F1FAEE;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    border-bottom: 5px solid red;
+    padding: 0 20px 20px 20px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profile-img {
+    height: 180px;
+    border-radius: 20%;
+}
+
+#guide-txt{
+    max-width: 400px;
+}
+p {
+    text-align: start;
+}
